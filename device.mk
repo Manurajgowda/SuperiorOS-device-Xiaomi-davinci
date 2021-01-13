@@ -50,7 +50,6 @@ PRODUCT_PACKAGES += \
     audio.primary.sm6150 \
     audio.usb.default \
     audio.r_submix.default \
-    audio_amplifier.sm6150
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
@@ -290,7 +289,7 @@ PRODUCT_COPY_FILES += \
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage \
+    $(LOCAL_PATH)/overlay-superior \
     $(LOCAL_PATH)/overlay-system
 
 PRODUCT_ENFORCE_RRO_TARGETS += *
