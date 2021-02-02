@@ -24,6 +24,7 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/superior/config/common.mk)
 
+DEVICE_MAINTAINER := ManurajGowda
 PRODUCT_NAME := superior_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
